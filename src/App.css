@@ -1,0 +1,139 @@
+/* .App{
+}
+
+.App-nav{
+  background-color: blue;
+  color: white;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 80px;
+  margin: 0px auto;
+  
+}
+ul, li{
+  list-style: none;
+  margin-left: 30px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+form {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;justify-content: space-between;
+  margin: 20px 5px;
+}
+
+.col-1{
+  width: 100%;
+}
+
+.col-2{
+  width: 45%;
+  
+}.col-3{
+  width: 27%;
+}
+input{
+  width: 100%;
+  padding: 10px;
+}
+
+button{
+  padding: 10px 30px;
+  border: 0px;
+  background: #00F;
+  color: #FFF;
+  font-weight: bold;
+} */
+
+.App{
+  border: 1px solid red;
+  background-color: #0000FF;
+  height: 80vh;
+  width: 100vw;
+  
+}
+.App-nav{
+  display: flex;
+  flex: row;
+  align-items: center;
+  padding: 0px 200px;
+  height: 15%;
+  color: #FFFFFF;
+  font-weight: bold;
+  
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px;
+  
+}
+ul, li{
+  list-style: none;
+  padding: 0px 20px;
+}
+li > a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.App-header{
+  background-color: #FFFFFF;
+  height: 100%;
+  padding: 0px 200px;
+}
+.formCadastro{
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: gray;
+  margin-top: 10px;
+}
+.col-1{
+  width: 100%;
+}
+.col-2{
+  width: 65%;
+}
+.col-3{
+  width: 30%;
+}
+.col-4{
+  width: 22.5%;
+}
+.col-5{
+  width: 18%;
+}
+input{
+  width: 100%;
+  margin: 0px;
+  padding: 5px 0px;
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-top: 50px;
+}
+
+.button > button{
+  background-color: #0000FF;
+  color: #FFFFFF;
+  padding: 10px;
+}
